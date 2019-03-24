@@ -20,17 +20,6 @@ navbar-links:
     - GitHub Pages: "https://pages.github.com/"
   Author's home: "http://deanattali.com"
 
-# --- Markdown --- #
-
-highlighter: true
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
-  parse_block_html: true
-  syntax_highlighter_opts:
-    disable: false
-
 # --- Footer options --- #
 
 author:
