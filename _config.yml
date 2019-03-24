@@ -48,9 +48,6 @@ share-links-active:
   google: false
   linkedin: true
 
-# How to display the link to the website in the footer
-url-pretty: "khalifnovation.github.io"
-
 # --- Web Statistics Section --- #
 
 # Enter your Google Analytics web tracking code
@@ -61,8 +58,6 @@ url: https://khalifnovation.github.io/
 
 # jekyll theme that we use
 theme: jekyll-theme-minimal
-
-permalink: /:title/
 
 plugins:
   - jekyll-relative-links
