@@ -20,17 +20,6 @@ navbar-links:
     - GitHub Pages: "https://pages.github.com/"
   Author's home: "http://deanattali.com"
 
-# --- Markdown --- #
-
-highlighter: true
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
-  parse_block_html: true
-  syntax_highlighter_opts:
-    disable: false
-
 # --- Footer options --- #
 
 author:
@@ -59,9 +48,6 @@ share-links-active:
   google: false
   linkedin: true
 
-# How to display the link to the website in the footer
-url-pretty: "khalifnovation.github.io"
-
 # --- Web Statistics Section --- #
 
 # Enter your Google Analytics web tracking code
@@ -72,8 +58,6 @@ url: https://khalifnovation.github.io/
 
 # jekyll theme that we use
 theme: jekyll-theme-minimal
-
-permalink: /:title/
 
 plugins:
   - jekyll-relative-links
