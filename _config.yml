@@ -1,7 +1,6 @@
 title: KhalifNovation
 logo: /assets/img/logo.png
 description: Welcome to our documentation site
-show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
 plugins:
