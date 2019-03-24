@@ -14,4 +14,4 @@ This repo contains arduino libraries for using encoder with arduino
 
 This repo contains arduino libraries for Motor
 
-[test link](https://github.com/KhalifNovation/KhalifNovation.github.io/blob/master/testlink.md)
+[test link](./testlink.md)
