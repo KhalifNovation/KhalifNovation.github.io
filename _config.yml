@@ -1,8 +1,80 @@
+# Name of site (displayed in the header)
+name: KhalifNovation
+
+# The title of site
 title: KhalifNovation
+
 logo: /assets/img/logo.png
+
+avatar: /assets/img/logo.png
+
+# Short bio or description (displayed in the header
 description: Welcome to our documentation site
+
+# List of links in the navigation bar
+navbar-links:
+  About Me: "aboutme"
+  Resources:
+    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+    - Learn markdown: "http://www.markdowntutorial.com/"
+    - GitHub Pages: "https://pages.github.com/"
+  Author's home: "http://deanattali.com"
+
+# --- Markdown --- #
+
+highlighter: true
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  parse_block_html: true
+  syntax_highlighter_opts:
+    disable: false
+
+# --- Footer options --- #
+
+author:
+  name: Hazim Gharib
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email:
+  facebook:
+  flickr:
+  github: barryclark/jekyll-now
+  instagram:
+  linkedin:
+  pinterest:
+  rss: # just type anything here for a working RSS icon
+  twitter: jekyllrb
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
+
+# Select which share links to show in posts
+share-links-active:
+  twitter: true
+  facebook: true
+  google: false
+  linkedin: true
+
+# How to display the link to the website in the footer
+url-pretty: "khalifnovation.github.io"
+
+# --- Web Statistics Section --- #
+
+# Enter your Google Analytics web tracking code
 google_analytics:
+
+# Website URL
+url: https://khalifnovation.github.io/
+
+# jekyll theme that we use
 theme: jekyll-theme-minimal
+
+permalink: /:title/
+
 plugins:
   - jekyll-relative-links
 relative_links:
